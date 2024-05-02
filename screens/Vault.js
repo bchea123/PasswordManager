@@ -1,9 +1,10 @@
 import { Text, View } from "react-native";
+import PasswordList from "../components/Vault/PasswordList";
 
 function Vault() {
     return (
         <View>
-            <Text>Vault Page</Text>
+            <PasswordList/>
         </View> 
     )
 }
